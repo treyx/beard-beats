@@ -10,4 +10,5 @@ export default Router.map(function() {
   this.resource('artists', function () {
     this.resource('artist', { path: ':artist_id' });
   });
+  this.resource('albums', function() {});
 });
