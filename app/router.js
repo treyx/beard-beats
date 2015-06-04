@@ -12,4 +12,5 @@ export default Router.map(function() {
       this.resource('albums');
     });
   });
+  this.resource('album', function() {});
 });
