@@ -7,4 +7,5 @@ var Router = Ember.Router.extend({
 
 export default Router.map(function() {
   this.resource('artists', function() {});
+  this.resource('artist', function() {});
 });
